@@ -1,0 +1,32 @@
+:root{
+    font-family: sans-serif;
+}
+.navbar{
+display: flex;
+background: #FAB12F;
+justify-content: space-between;
+}
+.navbar .logo h1{
+    color: white;
+    padding: 0 0.5em;
+}
+.navbar .nav-items {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.navbar .nav-items a{
+    text-decoration: none;
+    color: white;;
+}
+
+.navbar .nav-items .menu-toggle{
+    display: block;
+    background-color: white;
+}
+.navbar .nav-items .menu-toggle .bar{
+    display: block;
+    background-color: white;
+    height: 1em;
+}
